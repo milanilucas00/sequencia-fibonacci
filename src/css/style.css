@@ -1,0 +1,38 @@
+body {
+    background-color: #d3d3d3;
+}
+
+
+main {
+    font-family: "Loto", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+main .container {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    background-color: #6e8aa1;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+main .container #checkButton {
+    padding: 10px;
+    border-radius: 40px;
+    background-color: #2d9efa;
+    border: none;
+}
+
+main .container #checkButton:hover {
+    background-color: #124066;
+    color: white;
+}
+
+main .container #numberInput, #checkButton {
+    font-size: 15px;
+}
